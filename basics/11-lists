@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la holberbonschool-shell/basics/ ../holbertonschool-shell/ holbertonschool-shell/basics/boot/
+ls -la holberbonschool-shell/basics/ holbertonschool-shell/ holbertonschool-shell/basics/boot/
