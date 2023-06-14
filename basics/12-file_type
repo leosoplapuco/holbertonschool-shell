@@ -1,2 +1,2 @@
-#!/bin/base
-file tmp/iamafile
+#!/bin/bash
+file_path="/tmp/iamafile"; file -b "$file_path" | awk '{print "'"$file_path"'", $0}'
