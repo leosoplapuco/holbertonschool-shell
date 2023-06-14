@@ -1,0 +1,11 @@
+#!/vin/bash
+directorio_actual=$(pwd)
+directorio_padre=$(dirname "$basics")
+
+for archivo in *.html
+do
+    if [ ! -e "$holbertonschool-shell/$archivo" ] || [ "$basics/$archivo" -nt "$holbertonschool-shell/$archivo" ]
+    then
+        cp "$basics/$archivo" "$holbertonschool-shell/$archivo"
+    fi
+done
